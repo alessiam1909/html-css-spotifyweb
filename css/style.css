@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* stilizzazione header */
+.flex{
+    display: flex;
+}
+
+header {
+    justify-content: flex-end;
+}
+.header{
+    background-color: rgba(8,11,18,255);
+    position: fixed;
+    z-index:1;
+    height: 10vh;
+    width: 85vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form{
+    margin-right: 20px;
+    border:2px solid white ;
+    border-radius: 20px;
+}
+
+.btn-header{
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    padding: 7px 20px;
+    cursor: pointer;
+}
