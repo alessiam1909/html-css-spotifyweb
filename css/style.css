@@ -16,10 +16,13 @@ body{
 
 header {
     justify-content: flex-end;
-}
-.header{
     position: fixed;
     z-index:1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header{
     background-color: rgba(8,11,18, 0.5);
     height: 80px;
     width: calc(100vw - 200px);
@@ -49,12 +52,13 @@ aside{
     flex-direction: column;
     width: 200px;
     color: #6e6e6e;
-    height: auto;
+    height: calc(100vh - 80px);
     background-color: rgba(0,0,0,255);
 }
 
 .row-aside1{
     flex-direction: column;
+    height: calc(100vh - 180px);
 }
 
 .logo-small{
@@ -127,8 +131,7 @@ aside{
     font-weight: 600;
 }
 
-.contenitore-lista{
-    min-height: 200px;
+.playlist{
     overflow-y: auto;
 }
 
@@ -163,7 +166,16 @@ aside{
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 10px;
+}
 
+.row-aside2{
+    width: 200px;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    bottom: 80px;
+    left: 0;
+    background-color:rgba(0,0,0,255) ;
 }
 
 /* creazione main */
