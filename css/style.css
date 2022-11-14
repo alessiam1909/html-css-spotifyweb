@@ -57,7 +57,11 @@ aside{
     flex-direction: column;
 }
 
-.logo, .playlist{
+.logo-small{
+    display: none;
+}
+
+.logo, .playlist, .footer-aside{
     width: 85%;
     margin: 0 auto;
 }
@@ -81,7 +85,7 @@ aside{
 
 .menu-aside li:hover{
     color: white;
-    border-left: 1px solid #adff2f;
+    border-left: 4px solid #adff2f;
 }
 
 .crea-playlist{
@@ -123,16 +127,48 @@ aside{
     font-weight: 600;
 }
 
+.contenitore-lista{
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+.contenitore-download img{
+    width: 20px;
+    margin-bottom: -5px;
+}
+
+.contenitore-download span{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.contenitore-download{
+    border-bottom: 1px solid #6e6e6e;
+    padding-bottom: 5px;
+}
+
+.contenitore-profile{
+    width: 30px;
+    height: 30px;
+    background-color: #6e6e6e;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5px;
+}
+
 
 
 /* creazione main */
 .wrapper{
     position: relative;
+    width: 100vw;
+    height: calc(100vh - 80px);
 }
 
 main{
     width: calc(100vw - 200px);
-    height: 100%;
+    height: calc(100vh - 80px);
     background-color: rgba(20,25,34,255);
     position: absolute;
     top: 0;
@@ -146,4 +182,5 @@ footer{
     height: 80px;
     background-color: rgba(40,40,40,255);
     position: fixed;
+    z-index: 1;
 }
