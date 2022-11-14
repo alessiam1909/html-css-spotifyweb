@@ -49,7 +49,7 @@ aside{
     flex-direction: column;
     width: 200px;
     color: #6e6e6e;
-    height: calc(100vh - 80px);
+    height: auto;
     background-color: rgba(0,0,0,255);
 }
 
@@ -140,6 +140,7 @@ aside{
 .contenitore-download span{
     font-weight: 600;
     font-size: 13px;
+    color: #6e6e6e;
 }
 
 .contenitore-download{
@@ -157,11 +158,16 @@ aside{
     margin: 5px;
 }
 
+.footer-aside:last-child{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
 
+}
 
 /* creazione main */
 .wrapper{
-    position: relative;
     width: 100vw;
     height: calc(100vh - 80px);
 }
@@ -170,9 +176,6 @@ main{
     width: calc(100vw - 200px);
     height: calc(100vh - 80px);
     background-color: rgba(20,25,34,255);
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 /* creazione footer */
