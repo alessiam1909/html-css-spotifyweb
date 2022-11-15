@@ -171,6 +171,10 @@ aside{
     margin: 5px;
 }
 
+.contenitore-profile img{
+    width: 100%;
+}
+
 .nome{
     align-items: center;
 }
@@ -312,4 +316,127 @@ footer{
     background-color: rgba(40,40,40,255);
     position: fixed;
     z-index: 1;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+
+.col-15{
+    width: 15%;
+    align-items: center;
+    margin: 10px;
+}
+
+.col-60{
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.sub-img img{
+    width: 100%;
+}
+
+.brano{
+    font-size: 10px;
+    color: rgba(119,121,126,255);
+}
+
+.icons{
+    margin-left: 20px;
+    color: rgba(119,121,126,255);
+}
+
+.icons i{
+    margin: 2px;
+}
+
+.fa-heart:hover{
+    color: red;
+}
+
+.player i{
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.player .fa-circle-play{
+    font-size: 30px;
+}
+
+.song-bar{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra1{
+    position: relative;
+    width: 50%;
+    height: 5px;
+    margin: 0 20px;
+    border-radius: 20px;
+    background-color: rgba(119,121,126,255);
+}
+
+.barra2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #c1c1c1;
+    height: 5px;
+    width: 25%;
+}
+
+.pallino{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color:  #c1c1c1;
+}
+
+.barra1:hover .pallino{
+    display: block;
+    background-color: #adff2f;
+}
+
+.barra1:hover .barra2{
+    background-color: #adff2f;
+}
+
+.tempo{
+    font-size: 10px;
+}
+
+.icone{
+    width: 30%;
+}
+
+.icone i{
+    padding:0 2px;
+    font-size: 12px;
+}
+
+.seconda-bar{
+    width: 70%;
+}
+
+.seconda-bar .barra1{
+    width: 80%;
+    margin: 0 2px;
 }
