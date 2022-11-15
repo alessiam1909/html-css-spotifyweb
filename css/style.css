@@ -505,7 +505,7 @@ footer{
 
 @media screen and (min-width:768px) and (max-width:991px){
     .icone{
-        width: 35%;
+        width: 50%;
         text-align: center;
     }
 
@@ -536,6 +536,184 @@ footer{
 
     .col-navbar li{
         width: 20%;
+        font-size: 12px;
         margin-top: 15px;
     }
+}
+
+/* creazione media query s 576-767px */
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .icone{
+        width: 50%;
+        text-align: center;
+    }
+
+    .seconda-bar{
+        width: 40%;
+    }
+
+    .col-15{
+        width: 35%;
+    }
+
+    .col{
+        width: 40%;
+        margin: 0 10px;
+    }
+
+    .col h4{
+        font-size: 12px;
+    }
+
+    .contenitore-tracks .row{
+        justify-content: flex-start;
+    }
+
+    .row-navbar {
+        width: 95%;
+    }
+
+    .col-navbar li{
+        width: 30%;
+        font-size: 12px;
+        padding:  5px;
+        margin-top: 15px;
+    }
+}
+
+/* creazione media query xs max576px */
+
+@media screen and (max-width:575px){
+    aside, .row-aside2{
+        width: 50px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-small{
+        display: block;
+    }
+
+    .logo-small img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu-aside span, .footer-aside span {
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    .contenitore-download{
+        border: none;
+    }
+
+    .contenitore-download img{
+        margin-left: 10px;
+    }
+
+    .header{
+        width: calc(100vw - 50px);
+    }
+
+
+    main{
+        width: calc(100vw - 50px);
+    }
+
+    .col{
+        width: 40%;
+        margin: 0 10px;
+    }
+
+    .col h4{
+        font-size: 12px;
+    }
+
+    .contenitore-tracks .row{
+        justify-content: flex-start;
+    }
+
+    .row-navbar {
+        width: 95%;
+    }
+
+    .col-navbar li{
+        width: 30%;
+        font-size: 12px;
+        padding:  5px;
+        margin-top: 15px;
+    }
+
+    .bordo{
+        width: 50%;
+    }
+
+    .icone{
+        width: 60%;
+        font-size: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .seconda-bar{
+        margin-top: 13px;
+        width: 40%;
+    }
+
+    .col-15{
+        width: 27%;
+        align-items: flex-start;
+        margin: 20px 10px;
+    }
+
+    .col-60{
+        width: 30%;
+        height: 80px;
+    }
+
+    .player{
+        margin: 10px 0 0;
+        height: 60%;
+        font-size: 13px;
+    }
+
+    .player i{
+        margin: 1px;
+    }
+
+    .song-bar{
+        height: 40%;
+        align-items: flex-start;
+    }
+
+    .barra1{
+        width: 70%;
+        margin: 5px;
+    }
+
+    .tempo{
+        width: 25%;
+        font-size: 10px;
+    }
+
+    .elementi-footer{
+        font-size: 12px;
+    }
+
+    .brano{
+        font-size: 8px;
+    }
+
+    .icons{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
 }
