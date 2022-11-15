@@ -92,6 +92,10 @@ aside{
     border-left: 4px solid #adff2f;
 }
 
+.contenitore-lista li:hover{
+    color: white;
+}
+
 .crea-playlist{
     display: inline-block;
     background-color: #6e6e6e;
@@ -156,9 +160,13 @@ aside{
     height: 30px;
     background-color: #6e6e6e;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
     border-radius: 20px;
     margin: 5px;
+}
+
+.nome{
+    align-items: center;
 }
 
 .footer-aside:last-child{
@@ -166,6 +174,10 @@ aside{
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+.footer-aside{
+    vertical-align: middle;
 }
 
 .row-aside2{
