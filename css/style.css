@@ -455,6 +455,15 @@ footer{
     .col-15{
         width: 20%;
     }
+
+    .row-navbar {
+        width: 95%;
+    }
+
+    .col-navbar li{
+        width: 15%;
+        margin-top: 15px;
+    }
 }
 
 /* creazione media query 992-1200px */
@@ -471,5 +480,62 @@ footer{
 
     .col-15{
         width: 20%;
+    }
+
+    .col{
+        width: 20%;
+        margin: 0 10px;
+    }
+
+    .contenitore-tracks .row{
+        justify-content: flex-start;
+    }
+
+    .row-navbar {
+        width: 95%;
+    }
+
+    .col-navbar li{
+        width: 20%;
+        margin-top: 15px;
+    }
+}
+
+/* creazione media query md 768-991px */
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .icone{
+        width: 35%;
+        text-align: center;
+    }
+
+    .seconda-bar{
+        width: 40%;
+    }
+
+    .col-15{
+        width: 35%;
+    }
+
+    .col{
+        width: 20%;
+        margin: 0 10px;
+    }
+
+    .col h4{
+        font-size: 12px;
+    }
+
+    .contenitore-tracks .row{
+        justify-content: flex-start;
+    }
+
+    .row-navbar {
+        width: 95%;
+    }
+
+    .col-navbar li{
+        width: 20%;
+        margin-top: 15px;
     }
 }
