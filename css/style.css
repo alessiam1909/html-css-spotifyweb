@@ -440,3 +440,36 @@ footer{
     width: 80%;
     margin: 0 2px;
 }
+
+/* creazione media query */
+@media screen and (min-width:1201px) and (max-width:1355px){
+    .icone{
+        width: 35%;
+        text-align: center;
+    }
+
+    .seconda-bar{
+        width: 60%;
+    }
+
+    .col-15{
+        width: 20%;
+    }
+}
+
+/* creazione media query 992-1200px */
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .icone{
+        width: 35%;
+        text-align: center;
+    }
+
+    .seconda-bar{
+        width: 60%;
+    }
+
+    .col-15{
+        width: 20%;
+    }
+}
